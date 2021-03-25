@@ -7,6 +7,7 @@ How to use it:
 1 - Create a empty geodatabase
 
 2 - copy your points inside it
+
   Points - should be in projected coordinates system.
   
 3 - Create an empty line feature insida this .gdb (in the same coordinate system with points)
