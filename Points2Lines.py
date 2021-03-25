@@ -41,7 +41,7 @@ def main():
 
         
  
-def noZvalue(): #function for calculating the distances with Z coordinate
+def noZvalue(): #function for calculating the distances without Z coordinate
     oid = 0
     for a in arcpy.da.SearchCursor(f,["SHAPE@X","SHAPE@Y"]):
         total_x.append(round(a[0],4))
